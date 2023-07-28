@@ -23,7 +23,7 @@ def ajuste_lineal(x, y):
     b = y_media - m * x_media
     print(m, b)
 
-    return m, b
+    return round(m, 5), round(b, 5)
 
 
 try:
